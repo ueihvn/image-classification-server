@@ -1,0 +1,17 @@
+curl --request POST 'http://0.0.0.0:8000/bookgenres/one-book-predictions' -H 'Content-Type: application/json' --data-raw '{
+  "book_id": 1,
+  "thumbnail_link": "http://linkanh.com"
+}'
+
+curl --request POST 'http://0.0.0.0:8000/bookgenres/books-predictions' -H 'Content-Type: application/json' --data-raw '{
+  "books": [
+	{
+ 		"book_id": 1,
+ 		"thumbnail_link": "http://linkanh1.com"
+	},
+	{
+ 		"book_id": 2,
+ 		"thumbnail_link": "http://linkanh2.com"
+	}
+  ]
+}'
