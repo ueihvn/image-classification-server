@@ -1,6 +1,6 @@
 curl --request POST 'http://0.0.0.0:8000/bookgenres/one-book-predictions' -H 'Content-Type: application/json' --data-raw '{
   "book_id": 1,
-  "thumbnail_link": "http://linkanh.com"
+  "thumbnail_link": "https://blog-cdn.reedsy.com/uploads/2019/12/stargazing-705x1024.jpg"
 }'
 
 curl --request POST 'http://0.0.0.0:8000/bookgenres/books-predictions' -H 'Content-Type: application/json' --data-raw '{
