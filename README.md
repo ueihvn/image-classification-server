@@ -28,4 +28,6 @@ Run `make build` if you have make or you can copy command in Makefile
 
 #### Run container
 
+**Not need this step for ebook-sharing**
+
 Run `make run` if you have make or you can copy command in Makefile

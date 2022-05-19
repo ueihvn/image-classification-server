@@ -1,3 +1,6 @@
 ics-env
 __pycache__
-model/**
+model/*
+
+#exception for push empty folder
+!model/.gitkeep
